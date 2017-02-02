@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grasp.Console", "..\Grasp.Console\Grasp.Console.csproj", "{A3467CFA-296C-49A5-9DFA-5DAA510421A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grasp.Console", ".\Grasp.Console\Grasp.Console.csproj", "{A3467CFA-296C-49A5-9DFA-5DAA510421A1}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Grasp.Modeling", "..\Grasp.Modeling\Grasp.Modeling.modelproj", "{ADC25499-300B-4020-8DD7-08800842BAFA}"
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Grasp.Modeling", ".\Grasp.Modeling\Grasp.Modeling.modelproj", "{ADC25499-300B-4020-8DD7-08800842BAFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grasp.ModelingLib", "..\Grasp.ModelingLib\Grasp.ModelingLib.csproj", "{DB838D2C-DF59-41D2-94B1-880AFBABD9F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grasp.ModelingLib", ".\Grasp.ModelingLib\Grasp.ModelingLib.csproj", "{DB838D2C-DF59-41D2-94B1-880AFBABD9F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
