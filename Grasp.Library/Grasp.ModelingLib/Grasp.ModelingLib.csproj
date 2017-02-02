@@ -40,9 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\RentVideo.cs" />
-    <Compile Include="GeneratedCode\Video.cs" />
-    <Compile Include="GeneratedCode\VideoStore.cs" />
+    <Compile Include="GeneratedCode\Car.cs" />
+    <Compile Include="GeneratedCode\ConvertibleCar.cs" />
+    <Compile Include="GeneratedCode\CoupeCar.cs" />
+    <Compile Include="GeneratedCode\Distributor.cs" />
+    <Compile Include="GeneratedCode\ETransportationType.cs" />
+    <Compile Include="GeneratedCode\IChoosable.cs" />
+    <Compile Include="GeneratedCode\ITransportable.cs" />
+    <Compile Include="GeneratedCode\MountainBike.cs" />
+    <Compile Include="GeneratedCode\SedanCar.cs" />
+    <Compile Include="GeneratedCode\SuvCar.cs" />
+    <Compile Include="GeneratedCode\TransportVehicle.cs" />
+    <Compile Include="GeneratedCode\TruckCar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

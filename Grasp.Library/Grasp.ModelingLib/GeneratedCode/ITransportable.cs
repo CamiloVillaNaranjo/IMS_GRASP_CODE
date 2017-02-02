@@ -9,7 +9,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class VideoStore
+/// <summary>
+/// Interface that contains the main properties for all type of transportation vehicles
+/// </summary>
+public interface ITransportable 
 {
+	string BrandName { get;set; }
+
+	ETransportationType TypeOfTransportation { get;set; }
+
 }
 
