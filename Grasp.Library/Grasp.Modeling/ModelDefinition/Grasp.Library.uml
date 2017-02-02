@@ -170,7 +170,51 @@
         name="VideoStore"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a8cf4a91-5e7e-4510-bf8d-4c4ad1a0e4dd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd5df36f-1a90-4289-816f-38f1c4b08633">
+                <propertyInstance
+                  Id="2d84c3ff-d469-4857-87a7-f4b636c36326"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d12e31e4-4692-4b9a-a5b6-742fad5509a9">
+                <propertyInstance
+                  Id="a7763dba-0b3d-4520-89c1-8dbd4f1ba8dc"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="97ba2adb-6ad0-4508-af95-252b59a970a8">
+                <propertyInstance
+                  Id="6474870f-6acb-413d-87bb-ff187d15c6a7"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40960f04-014f-420c-9efd-6599d55fd923">
+                <propertyInstance
+                  Id="cda1b13c-079b-4c68-b6a3-a3f1270a8251"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="406b7344-6398-4bbc-91aa-8575cac7f79f">
+                <propertyInstance
+                  Id="196aa0ef-3280-42c9-8482-09284ce9023f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
@@ -178,7 +222,51 @@
         name="RentVideo"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7d856e35-4ad8-46cb-9f09-55f83b46775f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75fdb0b2-86e5-4232-82dc-f517dfaa17a6">
+                <propertyInstance
+                  Id="65911c79-6810-4d62-b28e-130a751e1f5a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15e78179-d05c-41f1-a478-0147f2e6637c">
+                <propertyInstance
+                  Id="332d80d1-4e1f-47d6-8f5c-b8dd69c57ff6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e5044cb-32db-4aa1-aa84-8f29f9f2b677">
+                <propertyInstance
+                  Id="61623bad-6959-4615-bc02-7b1a9640af1c"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5594ffd-c339-4706-9cd2-aabc648550f3">
+                <propertyInstance
+                  Id="45af354f-9f93-494d-9fae-e7bbd709b328"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e119c9f-e5c7-4262-89a2-bf0d6ba078bf">
+                <propertyInstance
+                  Id="bba4ee22-b910-485b-8c2a-7b03b25ec13c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <interaction

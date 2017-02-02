@@ -9,18 +9,18 @@
         <OperationElementListCompartment Id="967b0c1b-46f8-4cfb-81d5-96a7499879b3" absoluteBounds="8.64, 2.9765075068672497, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="2ce298c4-39e5-462b-aae8-6a90e06fb090" absoluteBounds="6.5, 2.25, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="2ce298c4-39e5-462b-aae8-6a90e06fb090" absoluteBounds="6.5, 2.25, 1.5, 1.0276793744166692" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
       <classMoniker Id="6f24c520-dc89-4e1d-a84f-f4ca5f2f2b55" LastKnownName="VideoStore" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="a4aa3a77-2861-4b30-9da3-a965e976677a" absoluteBounds="6.5150000000000006, 2.64, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="09b3ec16-1793-45a3-a3fe-65bb24522bfe" absoluteBounds="6.5150000000000006, 2.8511718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="a4aa3a77-2861-4b30-9da3-a965e976677a" absoluteBounds="6.515, 2.7653356393178306, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="09b3ec16-1793-45a3-a3fe-65bb24522bfe" absoluteBounds="6.515, 2.9765075068672497, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="f641286d-9335-4014-9b01-a1a5007c56aa" absoluteBounds="4.125, 2.25, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="f641286d-9335-4014-9b01-a1a5007c56aa" absoluteBounds="4.125, 2.25, 1.5, 1.0276793744166692" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
       <classMoniker Id="8051424e-1fb3-4c14-a5a3-e1bec79bf25e" LastKnownName="RentVideo" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="23704cab-f211-4e59-8aa4-6435394aa97f" absoluteBounds="4.1400000000000006, 2.64, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="1414517b-3fe3-46c3-8096-f9c3ae44f2f9" absoluteBounds="4.1400000000000006, 2.8511718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="23704cab-f211-4e59-8aa4-6435394aa97f" absoluteBounds="4.14, 2.7653356393178306, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="1414517b-3fe3-46c3-8096-f9c3ae44f2f9" absoluteBounds="4.14, 2.9765075068672497, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>
