@@ -4,12 +4,12 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-public class RentVideo
+namespace Grasp.LowCoupling
 {
+	public interface INotifyService 
+	{
+		void NotifyInitSession(Credential credential);
+
+	}
 }
 

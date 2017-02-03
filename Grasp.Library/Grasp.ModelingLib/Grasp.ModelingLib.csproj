@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,11 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\RentVideo.cs" />
-    <Compile Include="GeneratedCode\Video.cs" />
-    <Compile Include="GeneratedCode\VideoStore.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\AuthenticationServices.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\Credential.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\CryptoServices.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\IAuthenticationService.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\ICryptoService.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\ILogger.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\INotifyService.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\Logger.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\LogManager.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\NotifyServices.cs" />
+    <Compile Include="GeneratedCode\Grasp.LowCoupling\SecurityController.cs" />
+    <Compile Include="GeneratedCode\LowCoupling.Before.Grasp\Credential.cs" />
+    <Compile Include="GeneratedCode\LowCoupling.Before.Grasp\ILogger.cs" />
+    <Compile Include="GeneratedCode\LowCoupling.Before.Grasp\Logger.cs" />
+    <Compile Include="GeneratedCode\LowCoupling.Before.Grasp\LogManager.cs" />
+    <Compile Include="GeneratedCode\LowCoupling.Before.Grasp\SecurityController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -6,26 +6,57 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="High" Text="Code generation or text transformation started." />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Diagnostic" Text="Name = ClassTemplate" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2017-02-02T10:39:14" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Grasp.Library::VideoStore' -  (Class), 'Grasp.Library::RentVideo' -  (Class) " />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Medium" Text="'Grasp.Library::VideoStore' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\VideoStore.cs" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Medium" Text="'Grasp.Library::RentVideo' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\RentVideo.cs" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Diagnostic" Text="Name = StructTemplate" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2017-02-02T10:39:47" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Grasp.Library::VideoStore' -  (Class), 'Grasp.Library::RentVideo' -  (Class) " />
-  <Message Timestamp="2017-02-02T10:39:48" Importance="Diagnostic" Text="'Grasp.Library::VideoStore' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-02T10:39:48" Importance="Diagnostic" Text="'Grasp.Library::RentVideo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-02T10:39:48" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-03T12:14:13" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Grasp.Library::Grasp.LowCoupling::Logger' -  (Class), 'Grasp.Library::Grasp.LowCoupling::LogManager' -  (Class), 'Grasp.Library::Grasp.LowCoupling::Credential' -  (Class), 'Grasp.Library::Grasp.LowCoupling::CryptoServices' -  (Class), 'Grasp.Library::Grasp.LowCoupling::SecurityController' -  (Class), 'Grasp.Library::Grasp.LowCoupling::NotifyServices' -  (Class), 'Grasp.Library::Grasp.LowCoupling::AuthenticationServices' -  (Class) " />
+  <Message Timestamp="2017-02-03T12:14:14" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::Logger' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\Logger.cs" />
+  <Message Timestamp="2017-02-03T12:14:14" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::LogManager' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\LogManager.cs" />
+  <Message Timestamp="2017-02-03T12:14:14" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::Credential' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\Credential.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::CryptoServices' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\CryptoServices.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::SecurityController' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\SecurityController.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::NotifyServices' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\NotifyServices.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::AuthenticationServices' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\AuthenticationServices.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'Grasp.Library::Grasp.LowCoupling::ILogger' -  (Interface), 'Grasp.Library::Grasp.LowCoupling::ICryptoService' -  (Interface), 'Grasp.Library::Grasp.LowCoupling::INotifyService' -  (Interface), 'Grasp.Library::Grasp.LowCoupling::IAuthenticationService' -  (Interface) " />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::ILogger' -  (Interface) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\ILogger.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::ICryptoService' -  (Interface) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\ICryptoService.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::INotifyService' -  (Interface) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\INotifyService.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="'Grasp.Library::Grasp.LowCoupling::IAuthenticationService' -  (Interface) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.LowCoupling\IAuthenticationService.cs" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Grasp.Library::Grasp.LowCoupling::Logger' -  (Class), 'Grasp.Library::Grasp.LowCoupling::LogManager' -  (Class), 'Grasp.Library::Grasp.LowCoupling::Credential' -  (Class), 'Grasp.Library::Grasp.LowCoupling::CryptoServices' -  (Class), 'Grasp.Library::Grasp.LowCoupling::SecurityController' -  (Class), 'Grasp.Library::Grasp.LowCoupling::NotifyServices' -  (Class), 'Grasp.Library::Grasp.LowCoupling::AuthenticationServices' -  (Class) " />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::Logger' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::LogManager' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::Credential' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T12:14:15" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::CryptoServices' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::SecurityController' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::NotifyServices' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::AuthenticationServices' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="The selection included 8 elements which were not bound to a template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="Diagnostic" Text="'Grasp.Library::Grasp.LowCoupling::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2017-02-03T12:14:16" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>
