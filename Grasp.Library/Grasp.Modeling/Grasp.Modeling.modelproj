@@ -22,6 +22,9 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="ModelDefinition\Package_1730.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="Grasp.Library.classdiagram">
       <SubType>Content</SubType>
@@ -29,13 +32,6 @@
     <Content Include="Grasp.Library.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>Grasp.Library.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="HighCohesion.sequencediagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="HighCohesion.sequencediagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>HighCohesion.sequencediagram</DependentUpon>
     </Content>
     <Content Include="ModelDefinition\Grasp.Library.uml">
       <SubType>Content</SubType>

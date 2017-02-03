@@ -40,11 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\RentVideo.cs" />
-    <Compile Include="GeneratedCode\Video.cs" />
-    <Compile Include="GeneratedCode\VideoStore.cs" />
+    <Compile Include="GeneratedCode\BeforeExpert\AttachFile.cs" />
+    <Compile Include="GeneratedCode\BeforeExpert\Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
