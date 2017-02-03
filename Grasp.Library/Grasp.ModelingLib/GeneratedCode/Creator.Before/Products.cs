@@ -5,13 +5,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Grasp.Controller
+namespace Before.Grasp
 {
-    public class Details
+    public class Products
     {
-        public Products Product { get; set; }
-
-        public int Quantity { get; set; }
+        public virtual string Code { get; set; }
     }
-
 }

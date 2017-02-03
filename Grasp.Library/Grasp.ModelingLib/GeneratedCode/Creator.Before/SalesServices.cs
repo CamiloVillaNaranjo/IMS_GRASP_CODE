@@ -6,7 +6,7 @@
 //------------------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Grasp.Controller
+namespace Before.Grasp
 {
     public class SalesServices
     {

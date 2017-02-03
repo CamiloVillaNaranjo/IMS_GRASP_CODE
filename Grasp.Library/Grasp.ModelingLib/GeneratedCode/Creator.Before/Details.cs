@@ -4,11 +4,14 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-using System.Collections.Generic;
-namespace Grasp.Controller
+
+namespace Before.Grasp
 {
-    public class Header
+    public class Details
     {
-        public IList<Details> Details { get; set; }
+        public Products Product { get; set; }
+
+        public int Quantity { get; set; }
     }
+
 }
