@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Grasp.Library">
+  <logicalClassDesignerModelMoniker Id="b7609504-9412-4c7d-8391-57eb6cc709fc" />
+  <nestedChildShapes>
+    <classShape Id="3992a99d-a466-4d36-90b8-b4c393dbcd46" absoluteBounds="2.625, 1.375, 1.5, 1.9886168446143469" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="df418049-5989-446b-9df8-bda5f87e8a41" LastKnownName="Helper" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="84b689ba-9aa5-4b17-a197-5791259de346" absoluteBounds="2.6400000000000006, 1.8903356393178306, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="f2cd43ee-5fcb-4218-abdc-214aa298de83" absoluteBounds="2.6400000000000006, 2.1015075068672497, 1.4700000000000002, 1.162109337747097" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

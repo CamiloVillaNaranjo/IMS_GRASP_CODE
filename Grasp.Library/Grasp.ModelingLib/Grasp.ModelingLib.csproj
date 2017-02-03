@@ -40,9 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\RentVideo.cs" />
-    <Compile Include="GeneratedCode\Video.cs" />
-    <Compile Include="GeneratedCode\VideoStore.cs" />
+    <Compile Include="GeneratedCode\After.Grasp\Helper.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\CypherEncodedMd5.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\EmailNotification.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\IEncodable.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\INotifiable.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\IReportable.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\IStorable.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\RequestReported.cs" />
+    <Compile Include="GeneratedCode\Grasp.HighCohesion\StoresTextFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

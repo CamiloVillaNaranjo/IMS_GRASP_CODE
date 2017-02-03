@@ -4,12 +4,15 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-public class Video
+namespace Grasp.HighCohesion
 {
+    public class RequestReported : IReportable
+	{
+		public void Create()
+		{
+			throw new System.NotImplementedException();
+		}
+
+	}
 }
 
