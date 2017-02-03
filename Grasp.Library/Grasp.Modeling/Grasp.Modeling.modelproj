@@ -36,19 +36,12 @@
       <SubType>Content</SubType>
       <DependentUpon>CreatorPattern.classdiagram</DependentUpon>
     </Content>
-    <Content Include="Grasp.Library.classdiagram">
+    <Content Include="BeforeCreator.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Grasp.Library.classdiagram.layout">
+    <Content Include="BeforeCreator.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>Grasp.Library.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="HighCohesion.sequencediagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="HighCohesion.sequencediagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>HighCohesion.sequencediagram</DependentUpon>
+      <DependentUpon>BeforeCreator.classdiagram</DependentUpon>
     </Content>
     <Content Include="ModelDefinition\Grasp.Library.uml">
       <SubType>Content</SubType>
