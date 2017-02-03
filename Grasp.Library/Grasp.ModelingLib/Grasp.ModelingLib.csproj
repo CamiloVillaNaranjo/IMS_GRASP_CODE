@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\Details.cs" />
-    <Compile Include="GeneratedCode\Header.cs" />
-    <Compile Include="GeneratedCode\Products.cs" />
-    <Compile Include="GeneratedCode\SalesServices.cs" />
+    <Compile Include="GeneratedCode\Grasp.Controller\Details.cs" />
+    <Compile Include="GeneratedCode\Grasp.Creator\Details.cs" />
+    <Compile Include="GeneratedCode\Grasp.Creator\Headers.cs" />
+    <Compile Include="GeneratedCode\Grasp.Creator\Products.cs" />
+    <Compile Include="GeneratedCode\Grasp.Creator\SalesAgentService.cs" />
+    <Compile Include="GeneratedCode\Grasp.Controller\Header.cs" />
+    <Compile Include="GeneratedCode\Grasp.Controller\Products.cs" />
+    <Compile Include="GeneratedCode\Grasp.Controller\SalesServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

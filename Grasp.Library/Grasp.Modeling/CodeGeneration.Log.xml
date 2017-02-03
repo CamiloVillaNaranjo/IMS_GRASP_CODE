@@ -6,33 +6,33 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="High" Text="Code generation or text transformation started." />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Diagnostic" Text="Name = ClassTemplate" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2017-02-02T19:30:53" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Grasp.Library::SalesServices' -  (Class), 'Grasp.Library::Header' -  (Class), 'Grasp.Library::Details' -  (Class), 'Grasp.Library::Products' -  (Class) " />
-  <Message Timestamp="2017-02-02T19:31:24" Importance="Medium" Text="'Grasp.Library::SalesServices' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\SalesServices.cs" />
-  <Message Timestamp="2017-02-02T19:31:24" Importance="Medium" Text="'Grasp.Library::Header' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Header.cs" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Medium" Text="'Grasp.Library::Details' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Details.cs" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Medium" Text="'Grasp.Library::Products' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Products.cs" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="Name = StructTemplate" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Grasp.Library::SalesServices' -  (Class), 'Grasp.Library::Header' -  (Class), 'Grasp.Library::Details' -  (Class), 'Grasp.Library::Products' -  (Class) " />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="'Grasp.Library::SalesServices' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="'Grasp.Library::Header' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="'Grasp.Library::Details' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="'Grasp.Library::Products' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="The selection included 2 elements which were not bound to a template." />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="'Grasp.Library::' -  (Association): no bound template." />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="Diagnostic" Text="'Grasp.Library::' -  (Association): no bound template." />
-  <Message Timestamp="2017-02-02T19:31:25" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-03T11:01:26" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Grasp.Library::Grasp.Creator::SalesAgentService' -  (Class), 'Grasp.Library::Grasp.Creator::Details' -  (Class), 'Grasp.Library::Grasp.Creator::Products' -  (Class), 'Grasp.Library::Grasp.Creator::Headers' -  (Class) " />
+  <Message Timestamp="2017-02-03T11:01:55" Importance="Medium" Text="'Grasp.Library::Grasp.Creator::SalesAgentService' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.Creator\SalesAgentService.cs" />
+  <Message Timestamp="2017-02-03T11:01:55" Importance="Medium" Text="'Grasp.Library::Grasp.Creator::Details' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.Creator\Details.cs" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Medium" Text="'Grasp.Library::Grasp.Creator::Products' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.Creator\Products.cs" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Medium" Text="'Grasp.Library::Grasp.Creator::Headers' -  (Class) : success (file created) - D:\Yuxi\Code\Self-study\IMS_GRASP_DESIGNPATTERNS\Grasp.Library\Grasp.ModelingLib\GeneratedCode\Grasp.Creator\Headers.cs" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="ProjectPath = ..\Grasp.ModelingLib\Grasp.ModelingLib.csproj" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Medium" Text="Grasp.Library's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Grasp.Library::Grasp.Creator::SalesAgentService' -  (Class), 'Grasp.Library::Grasp.Creator::Details' -  (Class), 'Grasp.Library::Grasp.Creator::Products' -  (Class), 'Grasp.Library::Grasp.Creator::Headers' -  (Class) " />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="'Grasp.Library::Grasp.Creator::SalesAgentService' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="'Grasp.Library::Grasp.Creator::Details' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="'Grasp.Library::Grasp.Creator::Products' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="'Grasp.Library::Grasp.Creator::Headers' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="The selection included 2 elements which were not bound to a template." />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="'Grasp.Library::Grasp.Creator::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="Diagnostic" Text="'Grasp.Library::Grasp.Creator::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-03T11:01:56" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>

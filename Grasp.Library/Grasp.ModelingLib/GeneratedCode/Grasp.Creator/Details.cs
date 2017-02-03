@@ -4,10 +4,18 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-public class Details
+namespace Grasp.Creator
 {
-	public Products Product { get; set;}
+    public class Details
+	{
+        public virtual Products Product { get; private set; }
+        public int Quantity { get; private set; }
 
-	public int Quantity { get; set; }
+        public Details(Products product, int quantity)
+        {
+            Product = product;
+            Quantity = quantity;
+        }
+    }
 }
 

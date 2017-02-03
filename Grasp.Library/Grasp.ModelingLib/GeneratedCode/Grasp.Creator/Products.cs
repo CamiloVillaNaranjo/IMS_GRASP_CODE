@@ -4,9 +4,11 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-
-public class Products
+namespace Grasp.Creator
 {
-	public virtual string Code { get; set; }
+	public class Products
+	{
+		public string ProductCode { get; set; }
+	}
 }
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="b7609504-9412-4c7d-8391-57eb6cc709fc" name="Grasp.Library" linkedPackageId="f1250559-3cae-4ad0-a678-62ee387286f4" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="b7609504-9412-4c7d-8391-57eb6cc709fc" name="Grasp.Library" linkedPackageId="e691be62-0ab4-40d8-a57e-c1b6e28ca486" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <appliedStereotypesInternal>
     <stereotypeInstance Id="62596bf9-02d4-4f18-84c1-c9eacd8ef412" name="namespace" profile="CSharpProfile">
       <elementDefinition Id="5663f055-07b7-4ccb-99ed-668261ae46c6" />
@@ -620,5 +620,8 @@
         <elementDefinition Id="2875d674-09cc-4e58-91e1-73b1132d2e06" />
       </packageHasProfileInstances>
     </profileInstances>
+  </package>
+  <package Id="e691be62-0ab4-40d8-a57e-c1b6e28ca486" name="Grasp.Controller">
+    <elementDefinition Id="671cc7c1-011f-49b1-b352-cdcdd308f65a" />
   </package>
 </logicalClassDesignerModel>
