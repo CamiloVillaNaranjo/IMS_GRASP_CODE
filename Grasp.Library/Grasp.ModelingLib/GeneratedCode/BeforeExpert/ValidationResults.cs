@@ -6,25 +6,14 @@
 //------------------------------------------------------------------------------
 namespace BeforeExpert
 {
-	using System;
-	using System.Collections.Generic;
-	using System.Linq;
-	using System.Text;
+    using System.Collections.Generic;
 
-	public class AttachFile
+    public class ValidationResults
 	{
-		public virtual object Path
-		{
-			get;
-			set;
-		}
+        public ValidationResults(IEnumerable<string> rulesNotAccomplished)
+        {
 
-		public virtual object Mime
-		{
-			get;
-			set;
-		}
-
-	}
+        }
+    }
 }
 

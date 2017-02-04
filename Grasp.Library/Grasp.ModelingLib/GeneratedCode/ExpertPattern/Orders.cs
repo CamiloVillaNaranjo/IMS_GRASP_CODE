@@ -4,41 +4,32 @@
 //     Changes to this file will be lost if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace BeforeExpert
+namespace ExpertPattern
 {
-	using System.IO;
-	using System.Collections.Generic;
+    using System.Collections.Generic;
 
-	public class Order
+    public class Orders
 	{
-		public FileAttachment fileAttached { get; set; }
-
-		/// <summary>
-		/// Stores quantity
-		/// </summary>
 		public int Quantity { get; set; }
 
-		public decimal Total { get; set; }
+		public int Total { get; set; }
 
-		public ValidationResults ValidateInfo()
+        public FileAttachment Attachment { get; set; }
+
+        public ValidationResults ValidateInformation()
 		{
-            return new ValidationResults(GetRulesNotMattched());
+            return new ValidationResults(GetRulesNotMatches());
 		}
 
-		public IEnumerable<string> GetRulesNotMattched()
+		public IEnumerable<string> GetRulesNotMatches()
 		{
             if (Quantity <= 0)
                 yield return "The Quantity of elements must be greater than 0.";
             if (Total >= 0)
                 yield return "The Total must be greater than 0.";
-            if (!FileExists(fileAttached.Path))
+            if (!Attachment.FileExists())
                 yield return "The file you are trying to attach does not exists.";
         }
-
-		public virtual bool FileExists(string filePath)
-		{
-            return File.Exists(filePath);
-		}
 
 	}
 }

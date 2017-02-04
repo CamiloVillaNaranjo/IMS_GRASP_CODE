@@ -118,6 +118,12 @@
         LastKnownName="BeforeExpert"
         LastKnownLocation="Package_1730.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ef9b69b2-9ac1-40a2-9185-789d9121d695"
+        LastKnownName="ExpertPattern"
+        LastKnownLocation="Package_1926.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

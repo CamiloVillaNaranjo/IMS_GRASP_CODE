@@ -22,19 +22,40 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="ExpertApplied.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ExpertApplied.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ExpertApplied.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package_1730.uml">
       <SubType>Content</SubType>
     </Content>
-    <Folder Include="ModelDefinition\" />
-    <Content Include="Grasp.Library.classdiagram">
+    <Content Include="ModelDefinition\Package_1926.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Grasp.Library.classdiagram.layout">
+    <Folder Include="ModelDefinition\" />
+    <Content Include="BeforeExpert.classdiagram">
       <SubType>Content</SubType>
-      <DependentUpon>Grasp.Library.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="BeforeExpert.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>BeforeExpert.classdiagram</DependentUpon>
     </Content>
     <Content Include="ModelDefinition\Grasp.Library.uml">
       <SubType>Content</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.ArchitectureTools.Extensibility.CodeSchema, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>Microsoft.VisualStudio.ArchitectureTools.Extensibility.CodeSchema</Name>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.ArchitectureTools.Extensibility.CodeSchema.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System</Name>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

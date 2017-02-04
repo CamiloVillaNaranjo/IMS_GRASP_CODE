@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\BeforeExpert\AttachFile.cs" />
+    <Compile Include="GeneratedCode\BeforeExpert\FileAttachment.cs" />
     <Compile Include="GeneratedCode\BeforeExpert\Order.cs" />
+    <Compile Include="GeneratedCode\BeforeExpert\ValidationResults.cs" />
+    <Compile Include="GeneratedCode\ExpertPattern\FileAttachment.cs" />
+    <Compile Include="GeneratedCode\ExpertPattern\Orders.cs" />
+    <Compile Include="GeneratedCode\ExpertPattern\ValidationResults.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
