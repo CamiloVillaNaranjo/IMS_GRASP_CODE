@@ -20,3 +20,4 @@ namespace Before.Grasp
             var myHeader = new Header { Details = new List<Details> { myDetail } };
         }
     }
+}
