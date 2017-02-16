@@ -35,6 +35,13 @@
     <Content Include="ModelDefinition\Package_1140.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="SequencExample.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SequencExample.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SequencExample.sequencediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="Before.LowCoupling.classdiagram">
       <SubType>Content</SubType>

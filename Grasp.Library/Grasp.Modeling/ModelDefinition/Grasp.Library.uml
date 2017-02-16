@@ -124,6 +124,1129 @@
         LastKnownName="Grasp.LowCoupling"
         LastKnownLocation="Package_1140.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="7ed8fe42-2cc6-44e3-abc6-0e881bb3133c"
+        name="SequencExample"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <ownedCommentsInternal>
+          <comment
+            Id="347e0e93-cfcb-4682-a6c0-6678de412be9">
+            <body>If user Name belongs to a contact, and also if the Email entered is the same as email returned by GetContact?
+YES: send email.
+NO: review if is information related to investigator.</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="68425d2f-151d-4b13-a1fd-83e9ce1c9caf"
+                LastKnownName="BehaviorExecutionSpecification1"
+                LastKnownLocation="Grasp.Library.uml" />
+            </annotatedElements>
+          </comment>
+          <comment
+            Id="89d31b3e-97e1-4f65-90d9-646da87496c2">
+            <body>If the process found that is a "passwordNotification" for an Investigator, it allows to send email, if the module available for the current user?
+YES: send email.
+NO: break and return as "failure"</body>
+            <annotatedElements>
+              <behaviorExecutionSpecificationMoniker
+                Id="68425d2f-151d-4b13-a1fd-83e9ce1c9caf"
+                LastKnownName="BehaviorExecutionSpecification1"
+                LastKnownLocation="Grasp.Library.uml" />
+            </annotatedElements>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="68425d2f-151d-4b13-a1fd-83e9ce1c9caf"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="0e9a6770-cd66-4fd9-b20c-76ff0ac037f8"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Grasp.Library.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="90790d72-e502-467b-aeef-3ab45ee6bd82"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Grasp.Library.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e10246ec-6701-41aa-8696-201c275f3acc"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="66803d91-b9c1-4f1a-aa84-2e1c662fa168"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6dd900f2-8135-41f2-81e7-a46f040c0620"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ceb7a7eb-2c02-4c91-bfe2-2f913803d6f3"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="27988d0c-026b-4a02-8edd-9e7b37255ce7"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="071115af-bcf1-407c-88df-e29358591996"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="dd786b88-3ac1-4857-9d2d-e2b60bd40f9e"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3eb5e63e-0d4e-454c-b364-f737a04eff07"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="eac3580e-91fb-46c3-ad1e-629d0a1c352b"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c98dd86a-eb0b-4467-a18c-0fdad46cc2ca"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3177ed6c-16c4-47aa-ba2b-644f3822415e"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="6790b243-9173-4282-a7dc-6fd179888f17"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Grasp.Library.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="90790d72-e502-467b-aeef-3ab45ee6bd82"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6ff4de32-1464-463c-b96f-f84b96f7b38f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="09012911-ad95-42d3-b12f-76255b63b4de"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="fc280881-0548-4385-b02b-a6fb0fc21255"
+                LastKnownName="UI"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e10246ec-6701-41aa-8696-201c275f3acc"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="bca154e3-22d4-4802-9f82-32fb83b3210b"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="44581565-0580-445b-854e-e38896d414e1"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Grasp.Library.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8bcf1010-c7a2-4762-ae80-8969fff17f54"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Grasp.Library.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f24db175-f751-4019-a215-9b9b2c9ccb32"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e2a2fde2-c19d-4144-99be-3a620c3ad10e"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Grasp.Library.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8bcf1010-c7a2-4762-ae80-8969fff17f54"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="073f1e45-4e21-42aa-9d0c-d834a673130b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="66803d91-b9c1-4f1a-aa84-2e1c662fa168"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f24db175-f751-4019-a215-9b9b2c9ccb32"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6dd900f2-8135-41f2-81e7-a46f040c0620"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e2a2fde2-c19d-4144-99be-3a620c3ad10e"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="44581565-0580-445b-854e-e38896d414e1"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="578ee229-a4ce-4bb6-8530-656f0aed1053"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="bf701991-70a9-41c7-afa6-7298d32ba933"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="5837fd3c-d282-497c-b044-5807b4f31d73"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Grasp.Library.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="58afb845-3a7b-4404-80fd-91487dfaa99b"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Grasp.Library.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0ce641bc-49af-4290-8dbb-c20c30766a9f"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0d9deefb-a812-4697-b39f-0da3c5529da1"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Grasp.Library.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="58afb845-3a7b-4404-80fd-91487dfaa99b"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0394a45a-51eb-43bc-aaf9-63a749fe70ea"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ceb7a7eb-2c02-4c91-bfe2-2f913803d6f3"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0ce641bc-49af-4290-8dbb-c20c30766a9f"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0d9deefb-a812-4697-b39f-0da3c5529da1"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="27988d0c-026b-4a02-8edd-9e7b37255ce7"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="5837fd3c-d282-497c-b044-5807b4f31d73"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5eab1868-3840-4ec2-ac70-696d7e5dd717"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+                LastKnownName="UserDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0d828233-a49c-4c73-bd82-653edfbbb544"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3e6945a9-42a1-42b0-9a7e-5fc95da68bdb"
+                LastKnownName="InvestigatorDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f8c7712c-da87-4a2c-a9e2-f7ccf69d9133"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Grasp.Library.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="71c6e16a-64bc-4f5e-9129-23ec63b2af9e"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Grasp.Library.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1078efa9-4978-4108-baec-f220b9b623ae"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b9c734d1-f2a9-4a3f-aa16-393a543b7430"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Grasp.Library.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="71c6e16a-64bc-4f5e-9129-23ec63b2af9e"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="86c31dba-4dfa-4679-a040-19638eaaa68c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3e6945a9-42a1-42b0-9a7e-5fc95da68bdb"
+                LastKnownName="InvestigatorDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1078efa9-4978-4108-baec-f220b9b623ae"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="3e6945a9-42a1-42b0-9a7e-5fc95da68bdb"
+                LastKnownName="InvestigatorDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="071115af-bcf1-407c-88df-e29358591996"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b9c734d1-f2a9-4a3f-aa16-393a543b7430"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="3e6945a9-42a1-42b0-9a7e-5fc95da68bdb"
+                LastKnownName="InvestigatorDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="dd786b88-3ac1-4857-9d2d-e2b60bd40f9e"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f8c7712c-da87-4a2c-a9e2-f7ccf69d9133"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d0d776ff-ce28-42ca-97b4-7f05f58508b9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3e6945a9-42a1-42b0-9a7e-5fc95da68bdb"
+                LastKnownName="InvestigatorDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="137b28e2-7eba-4f8c-873d-0d3646ef44aa"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="149deee0-fb7a-41c6-97cf-5dc1d52869f3"
+                LastKnownName="SponsorModuleDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="eee8662a-9c25-4b47-ac35-1aad6e5dd00c"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Grasp.Library.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="1592ebca-e107-4fd7-8685-dea1c3aeef9c"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Grasp.Library.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="24b94b15-97bf-404d-981a-f99f7be68d34"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f8948c9f-d15b-4818-8293-33ae3654c958"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Grasp.Library.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1592ebca-e107-4fd7-8685-dea1c3aeef9c"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="682f3e09-ba5e-4a36-ad9b-4bbb24021056"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="149deee0-fb7a-41c6-97cf-5dc1d52869f3"
+                LastKnownName="SponsorModuleDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="24b94b15-97bf-404d-981a-f99f7be68d34"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="149deee0-fb7a-41c6-97cf-5dc1d52869f3"
+                LastKnownName="SponsorModuleDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3eb5e63e-0d4e-454c-b364-f737a04eff07"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="eac3580e-91fb-46c3-ad1e-629d0a1c352b"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f8948c9f-d15b-4818-8293-33ae3654c958"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="149deee0-fb7a-41c6-97cf-5dc1d52869f3"
+                LastKnownName="SponsorModuleDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="eee8662a-9c25-4b47-ac35-1aad6e5dd00c"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0dbf1cae-ce90-472c-9ec1-73e5943475dc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="149deee0-fb7a-41c6-97cf-5dc1d52869f3"
+                LastKnownName="SponsorModuleDataProxy"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="4fdd928c-022b-42e8-9957-3db4b479177e"
+            name="BehaviorExecutionSpecification7">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="55956827-d4d5-4210-8a27-436217e22e7e"
+                LastKnownName="MailMan"
+                LastKnownLocation="Grasp.Library.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c8785e64-e3c4-40a5-ae8e-34ea04cfc9d5"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Grasp.Library.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9200999f-673d-44d3-aafe-f023fb09d55c"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Grasp.Library.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="56a3790e-0378-480e-b7fc-a7c652016267"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="11ee8830-5a35-495b-aa2b-bdb1660cf479"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Grasp.Library.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9200999f-673d-44d3-aafe-f023fb09d55c"
+            name="ExecutionOccurrenceSpecification13">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fa19b0b1-d060-4e0b-acfc-31befcce146a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="55956827-d4d5-4210-8a27-436217e22e7e"
+                LastKnownName="MailMan"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c98dd86a-eb0b-4467-a18c-0fdad46cc2ca"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="56a3790e-0378-480e-b7fc-a7c652016267"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="55956827-d4d5-4210-8a27-436217e22e7e"
+                LastKnownName="MailMan"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="11ee8830-5a35-495b-aa2b-bdb1660cf479"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="55956827-d4d5-4210-8a27-436217e22e7e"
+                LastKnownName="MailMan"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3177ed6c-16c4-47aa-ba2b-644f3822415e"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c8785e64-e3c4-40a5-ae8e-34ea04cfc9d5"
+            name="ExecutionOccurrenceSpecification14">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0d52632a-dceb-452a-8abe-755cb3bba129"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="55956827-d4d5-4210-8a27-436217e22e7e"
+                LastKnownName="MailMan"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6790b243-9173-4282-a7dc-6fd179888f17"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a18dd179-f876-4b1b-92f1-9c1e5ad0c468"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="fc280881-0548-4385-b02b-a6fb0fc21255"
+                LastKnownName="UI"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="0e9a6770-cd66-4fd9-b20c-76ff0ac037f8"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="55b08835-5cd5-403f-8cc6-6c55712fb0cf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Grasp.Library.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+                LastKnownName="Controller"
+                LastKnownLocation="Grasp.Library.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="fc280881-0548-4385-b02b-a6fb0fc21255"
+            name="UI"
+            isActor="false"
+            lifelineDisplayName="UI">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="09012911-ad95-42d3-b12f-76255b63b4de"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Grasp.Library.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a18dd179-f876-4b1b-92f1-9c1e5ad0c468"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Grasp.Library.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="2caf2af1-2daa-4a2f-b2f9-8f8ec232d7e7"
+            name="Controller"
+            isActor="false"
+            lifelineDisplayName="Controller">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="90790d72-e502-467b-aeef-3ab45ee6bd82"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Grasp.Library.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0e9a6770-cd66-4fd9-b20c-76ff0ac037f8"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Grasp.Library.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="1832fe84-394f-442b-add8-cfb839e2faf0"
+            name="UserDataProxy"
+            isActor="false"
+            lifelineDisplayName="UserDataProxy">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="8bcf1010-c7a2-4762-ae80-8969fff17f54"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Grasp.Library.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="44581565-0580-445b-854e-e38896d414e1"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Grasp.Library.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="58afb845-3a7b-4404-80fd-91487dfaa99b"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Grasp.Library.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5837fd3c-d282-497c-b044-5807b4f31d73"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Grasp.Library.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="3e6945a9-42a1-42b0-9a7e-5fc95da68bdb"
+            name="InvestigatorDataProxy"
+            isActor="false"
+            lifelineDisplayName="InvestigatorDataProxy">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="71c6e16a-64bc-4f5e-9129-23ec63b2af9e"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Grasp.Library.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f8c7712c-da87-4a2c-a9e2-f7ccf69d9133"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Grasp.Library.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="149deee0-fb7a-41c6-97cf-5dc1d52869f3"
+            name="SponsorModuleDataProxy"
+            isActor="false"
+            lifelineDisplayName="SponsorModuleDataProxy">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="1592ebca-e107-4fd7-8685-dea1c3aeef9c"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Grasp.Library.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="eee8662a-9c25-4b47-ac35-1aad6e5dd00c"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Grasp.Library.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="55956827-d4d5-4210-8a27-436217e22e7e"
+            name="MailMan"
+            isActor="false"
+            lifelineDisplayName="MailMan">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="9200999f-673d-44d3-aafe-f023fb09d55c"
+                LastKnownName="ExecutionOccurrenceSpecification13"
+                LastKnownLocation="Grasp.Library.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c8785e64-e3c4-40a5-ae8e-34ea04cfc9d5"
+                LastKnownName="ExecutionOccurrenceSpecification14"
+                LastKnownLocation="Grasp.Library.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="f82255ca-3d85-4374-b462-f9524612f970"
+            name="ajaxSendResetEmailPassword"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="09012911-ad95-42d3-b12f-76255b63b4de"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e10246ec-6701-41aa-8696-201c275f3acc"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="51d7c7f3-da3b-497b-b159-45553fdf8080"
+            name="ValidateContact"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="66803d91-b9c1-4f1a-aa84-2e1c662fa168"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f24db175-f751-4019-a215-9b9b2c9ccb32"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="184e2c76-b937-4f10-a993-308e932553b3"
+            name="contactId"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e2a2fde2-c19d-4144-99be-3a620c3ad10e"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6dd900f2-8135-41f2-81e7-a46f040c0620"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ccb69a76-5212-433f-bcc0-3516407d97a4"
+            name="GetContact"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ceb7a7eb-2c02-4c91-bfe2-2f913803d6f3"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0ce641bc-49af-4290-8dbb-c20c30766a9f"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ae6db714-aac3-4834-8682-fed4c7feadf1"
+            name="contactInfo"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0d9deefb-a812-4697-b39f-0da3c5529da1"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="27988d0c-026b-4a02-8edd-9e7b37255ce7"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2abefd36-75fe-4bb2-b255-3c50b590ef69"
+            name="SponsorModuleDataProxy"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="071115af-bcf1-407c-88df-e29358591996"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1078efa9-4978-4108-baec-f220b9b623ae"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="7caca186-ab52-4d72-b7d3-cd5da949aac8"
+            name="InvestigatorInfo"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b9c734d1-f2a9-4a3f-aa16-393a543b7430"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="dd786b88-3ac1-4857-9d2d-e2b60bd40f9e"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="53bdf31e-1c07-4e87-8fc2-1b0c42365e48"
+            name="GetSponsorModuleSetting"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3eb5e63e-0d4e-454c-b364-f737a04eff07"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="24b94b15-97bf-404d-981a-f99f7be68d34"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f781510e-26f0-4e0a-a760-1c1a2156e8b4"
+            name="List&lt;SponsorModuleSetting&gt; "
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f8948c9f-d15b-4818-8293-33ae3654c958"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="eac3580e-91fb-46c3-ad1e-629d0a1c352b"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b57aee8a-0bc4-407e-a93f-d76ca14ba2be"
+            name="SendMail"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c98dd86a-eb0b-4467-a18c-0fdad46cc2ca"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="56a3790e-0378-480e-b7fc-a7c652016267"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3a5ef9d5-832e-4992-a32b-31edfbabdd15"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="11ee8830-5a35-495b-aa2b-bdb1660cf479"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3177ed6c-16c4-47aa-ba2b-644f3822415e"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="5f7deac8-41c7-403b-a85c-0395aaf97067"
+            name="void"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6790b243-9173-4282-a7dc-6fd179888f17"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Grasp.Library.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a18dd179-f876-4b1b-92f1-9c1e5ad0c468"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Grasp.Library.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6ff4de32-1464-463c-b96f-f84b96f7b38f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="55b08835-5cd5-403f-8cc6-6c55712fb0cf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="073f1e45-4e21-42aa-9d0c-d834a673130b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="578ee229-a4ce-4bb6-8530-656f0aed1053"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0394a45a-51eb-43bc-aaf9-63a749fe70ea"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5eab1868-3840-4ec2-ac70-696d7e5dd717"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="86c31dba-4dfa-4679-a040-19638eaaa68c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d0d776ff-ce28-42ca-97b4-7f05f58508b9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="682f3e09-ba5e-4a36-ad9b-4bbb24021056"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0dbf1cae-ce90-472c-9ec1-73e5943475dc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fa19b0b1-d060-4e0b-acfc-31befcce146a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0d52632a-dceb-452a-8abe-755cb3bba129"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
